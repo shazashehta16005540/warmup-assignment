@@ -6,6 +6,7 @@ const fs = require("fs");
 // endTime: (typeof string) formatted as hh:mm:ss am or hh:mm:ss pm
 // Returns: string formatted as h:mm:ss
 // ============================================================
+// second commit for submission
 function getShiftDuration(startTime, endTime) {
     function toSeconds(timeStr) {
         let parts = timeStr.trim().split(" ");
